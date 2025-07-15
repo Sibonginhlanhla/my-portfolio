@@ -3,21 +3,30 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(135deg, #6c63ff, #14b8a6);
   color: white;
   text-align: center;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
+  line-height: 1.2;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  max-width: 90%;
+  word-break: break-word;
+}
+
+@media screen and (min-width: 640px) {
+  .title {
+    font-size: 4rem;
+  }
 }
 
 .subtitle {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-top: 1rem;
   max-width: 600px;
 }
@@ -25,12 +34,14 @@
 .links {
   margin-top: 2rem;
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .links a {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: white;
   border: 2px solid white;
   padding: 0.5rem 1.2rem;

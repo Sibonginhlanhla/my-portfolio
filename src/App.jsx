@@ -6,12 +6,12 @@ import Contact from './components/Contact'
 
 export default function App() {
   return (
-    <div className="font-sans bg-[#0f172a] text-white scroll-smooth">
+    <>
       <Hero />
       <About />
       <Skills />
       <Projects />
       <Contact />
-    </div>
+    </>
   )
 }
