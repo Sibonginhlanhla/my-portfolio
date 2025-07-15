@@ -1,0 +1,38 @@
+.contactSection {
+  max-width: 700px;
+  margin: 5rem auto 0;
+  padding: 0 1rem 2rem;
+  text-align: center;
+  color: #cbd5e1;
+}
+
+.heading {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #a5b4fc;
+}
+
+.text {
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+
+.email {
+  color: #6c63ff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.link {
+  color: #6c63ff;
+  font-weight: 600;
+  text-decoration: underline;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #14b8a6;
+}

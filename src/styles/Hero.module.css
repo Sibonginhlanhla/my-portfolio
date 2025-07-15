@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6c63ff, #14b8a6);
+  color: white;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  max-width: 600px;
+}
+
+.links {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.links a {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  border: 2px solid white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.links a:hover {
+  background: white;
+  color: #6c63ff;
+}
